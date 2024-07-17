@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplikasi Catatan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Aplikasi Catatan</h1>
+    <!-- Formulir Tambah Catatan -->
+    <div class="add-note-form">
+      <note-title-input placeholder="Masukkan judul..."></note-title-input>
+      <note-body-textarea placeholder="Masukkan isi catatan..."></note-body-textarea>
+      <add-note-button></add-note-button>
+    </div>
+    <!-- Daftar Catatan -->
+    <div class="notes-grid" id="notesGrid">
+      <!-- Catatan akan ditambahkan melalui JavaScript -->
+    </div>
+  </div>
+  <script src="components.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
+
+
+
